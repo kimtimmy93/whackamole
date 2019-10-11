@@ -1,0 +1,105 @@
+
+html{
+    background-color: aquamarine;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+#container {
+    height: 80%;
+    width: 50%;
+    border: 1px solid black;
+    background-image: url('diggif.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: url("../images/hammer.png"), 60 0 crosshair;
+}
+
+#timer {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    font-size: 24pt;
+}
+
+#points {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+
+#start {
+    position: absolute;
+    z-index: 6;
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 30pt;
+}
+
+#container2 {
+    height: 75%;
+    width: 300%;
+    display: flex;
+    justify-content: center;
+}
+
+#holes {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    justify-content: space-between;
+    position: relative;
+}
+
+#holes div {
+    width: 30%;
+    height: 30%;
+    padding-top: 35px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border: none;
+}
+
+#reset {
+    height: 10%;
+    width: 10%;
+    right: 210px;
+    position: relative;
+    background: rgba(255, 0, 0, 0.8);
+    font-weight: bold;
+    font-size: 6pt;
+    text-transform: uppercase;
+    border: 4px solid  rgba(255, 0, 0, 0.6);
+    text-align: center;
+}
+
+#reset:hover {
+    font-size: 10pt;
+    color: #fff;
+
+}
+
+#reset:active {
+    font-size: 12pt;
+    background:#DC143C;
+}
+
+
+
+
